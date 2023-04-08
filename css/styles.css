@@ -89,7 +89,6 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
-  text-decoration: underline;
 }
 
 .contact-item {
@@ -116,6 +115,7 @@ body {
   color: #ffffff;
 }
 .modal-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -170,6 +170,7 @@ body {
   background: #404bbf;
 }
 .text-btns {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
