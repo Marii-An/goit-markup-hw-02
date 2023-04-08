@@ -91,6 +91,10 @@ body {
   color: var(--accent-color);
 }
 
+.contact {
+  font-style: normal;
+}
+
 .contact-item {
   font-style: normal;
   font-weight: 400;
