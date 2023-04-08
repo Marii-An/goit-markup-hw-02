@@ -14,7 +14,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--main-color);
+  background-color: #ffffff;
+  color: #434455;
 }
 
 /*====================== COMPONENTS =========*/
@@ -34,6 +35,9 @@ body {
 }
 .logo-two {
   color: var(--main-color);
+}
+.logo-three {
+  color: #f4f4fd;
 }
 
 .section-title {
@@ -69,6 +73,9 @@ body {
   color: #f4f4fd;
 }
 
+.hidden {
+  display: none;
+}
 /*====================== /COMPONENTS =========*/
 
 /*====================== HEADER =========*/
@@ -109,6 +116,7 @@ body {
   color: #ffffff;
 }
 .modal-btn {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -123,9 +131,28 @@ body {
   background-color: var(--accent-color);
 }
 
+.hero {
+  background-color: #2e2f42;
+}
+
 /*====================== /HERO =========*/
 
-/*=================PORTFOLIO BUTTONS*/
+/*================TEAM=================*/
+.team {
+  background: #f4f4fd;
+}
+.card {
+  background-color: #ffffff;
+}
+/*================TEAM=================*/
+
+/*===================FOOTER=============*/
+
+.last-section {
+  background: #2e2f42;
+}
+/*===================FOOTER=================*/
+/*=================PORTFOLIO============*/
 
 .modal-btns {
   display: flex;
@@ -155,4 +182,8 @@ body {
 .text-btns:hover,
 .text-btns:focus {
   color: #ffffff;
+}
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
 }
